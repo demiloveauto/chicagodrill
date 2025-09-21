@@ -54,3 +54,43 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.main-header {
+  background: navy;
+  color: white;
+  padding-bottom: 8px;
+}
+
+.main-footer {
+  background: darkgreen;
+  color: white;
+  margin-top: 24px;
+  padding-top: 12px;
+}
+
+.info-section {
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin: 24px 0;
+  padding: 16px;
+  background: lightgray;
+}
+#site-title {
+  letter-spacing: 2px;
+  color: darkred;
+}
+
+#history-section {
+  background: lightyellow;
+  border-color: orange;
+}
+
+#artists-section {
+  background: lightblue;
+  border-color: blue;
+}
+
+#footer-link {
+  font-weight: bold;
+  font-size: 20px;
+}
