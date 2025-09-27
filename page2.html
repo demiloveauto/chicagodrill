@@ -1,36 +1,49 @@
 <!DOCTYPE html>
+
 <head>
+	
 	<title>Chicago Drill Artists</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header class="main-header">
+	<header class="main-header" role="banner">
 		<h1 id="site-title">Chicago Drill Artists</h1>
+		<nav aria-label="Artists navigation">
+			<ul class="nav-list">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="page2.html">Artists</a></li>
+			</ul>
+		</nav>
 	</header>
-	<main>
+
+	<main id="main-content">
 		<div class="flex-container">
 			<section class="info-section" id="artists-section">
-				<h2>Key Artists</h2>
+				<h2 id="artists-heading">Key Artists</h2>
 				<p>Chicago Drill has produced several influential rappers who shaped the genre and inspired others.</p>
 				<p>Chief Keef is often credited as the pioneer, while Lil Durk and King Von brought new styles and stories to the scene.</p>
 				<ul>
-					<li>Chief Keef: Known for "I Don't Like" and starting the Drill movement.</li>
-					<li>Lil Durk: Blends melodic rap with Drill roots.</li>
-					<li>King Von: Famous for storytelling in his lyrics.</li>
+					<li><strong>Chief Keef</strong>: Known for "I Don't Like" and starting the Drill movement.</li>
+					<li><strong>Lil Durk</strong>: Blends melodic rap with Drill roots.</li>
+					<li><strong>King Von</strong>: Famous for storytelling in his lyrics.</li>
 				</ul>
 			</section>
-			<section class="info-section">
-				<h2>Drill's Influence</h2>
+
+			<section class="info-section" id="influence-section">
+				<h2 id="influence-heading">Drill's Influence</h2>
 				<ol>
 					<li>Drill music has changed the sound of modern rap, making it more raw and authentic.</li>
 					<li>It inspired Drill scenes in other cities like New York and London.</li>
 					<li>Many artists use Drill beats and flows in their music today.</li>
 				</ol>
-				<img src="images/rushmore.jpg" alt="Mount Rushmore of Chicago Drill" width="300" height="200">
+				<img src="images/rushmore.jpg" alt="Graphic collage titled 'Mount Rushmore of Chicago Drill' showing stylized portraits of notable Drill artists" width="300" height="200">
 			</section>
 		</div>
 	</main>
-	<footer class="main-footer" id="footer-link">
-		<a href="index.html">Back to Home</a>
+
+	<footer class="main-footer" id="footer-link" role="contentinfo">
+		<a href="index.html">Return to the Home page</a>
 	</footer>
+</body>
+</html>
 

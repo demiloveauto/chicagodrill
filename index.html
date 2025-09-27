@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <head>
+	
 	<title>Chicago Drill Music</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header class="main-header">
+
+	<header class="main-header" role="banner">
 		<h1 id="site-title">Chicago Drill Music</h1>
+		<nav aria-label="Main navigation">
+			<ul class="nav-list">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="page2.html">Chicago Drill Artists</a></li>
+			</ul>
+		</nav>
 	</header>
-	<main>
+
+	<main id="main-content">
 		<section class="info-section" id="history-section">
-			<h2>History</h2>
+			<h2 id="history-heading">History</h2>
 			<p>Chicago Drill began in the early 2010s on the South Side of Chicago. It quickly became popular for its honest depiction of street life and its unique sound.</p>
 			<p>The genre was shaped by young artists who used music to share their experiences and struggles.</p>
 		</section>
-		<section class="info-section">
-			<h2>Cultural Impact</h2>
+
+		<section class="info-section" id="impact-section">
+			<h2 id="impact-heading">Cultural Impact</h2>
 			<ul>
 				<li>Drill music brought attention to Chicago's youth and their stories.</li>
 				<li>It influenced fashion, slang, and attitudes in hip-hop culture.</li>
@@ -24,10 +34,14 @@
 				<li>Drill is now popular in cities around the world.</li>
 				<li>It continues to evolve and inspire new artists.</li>
 			</ol>
-			<img src="images/nightshot.jpg" alt="Overlook of Chicago" width="300" height="200">
+			
+			<img src="images/nightshot.jpg" alt="Nighttime skyline of downtown Chicago with illuminated skyscrapers" width="300" height="200">
 		</section>
 	</main>
-	<footer class="main-footer" id="footer-link">
-		<a href="page2.html">Read more on Page 2</a>
+
+	<footer class="main-footer" id="footer-link" role="contentinfo">
+		<a href="page2.html">Learn more about Chicago Drill artists</a>
 	</footer>
+</body>
+</html>
 
