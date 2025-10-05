@@ -9,37 +9,46 @@
 </head>
 <body>
 
-	<header class="main-header" role="banner">
-		<h1 id="site-title">Chicago Drill Music</h1>
-		<nav aria-label="Main navigation">
-			<ul class="nav-list">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="page2.html">Chicago Drill Artists</a></li>
-			</ul>
-		</nav>
+	<header class="main-header bg-light py-3 mb-4" role="banner">
+		<div class="container d-flex justify-content-between align-items-center">
+			<h1 id="site-title" class="h4 mb-0">Chicago Drill Music</h1>
+			<nav aria-label="Main navigation">
+				<a href="index.html" class="btn btn-outline-primary me-2">Home</a>
+				<a href="page2.html" class="btn btn-primary">Chicago Drill Artists</a>
+			</nav>
+		</div>
 	</header>
 
-	<main id="main-content">
-		<section class="info-section" id="history-section">
-			<h2 id="history-heading">History</h2>
-			<p>Chicago Drill began in the early 2010s on the South Side of Chicago. It quickly became popular for its honest depiction of street life and its unique sound.</p>
-			<p>The genre was shaped by young artists who used music to share their experiences and struggles.</p>
-		</section>
+	<main id="main-content" class="container">
+		<div class="row g-4">
+			<section class="info-section col-md-8" id="history-section">
+				<div class="card">
+					<div class="card-body">
+						<h2 id="history-heading" class="card-title h5">History</h2>
+						<p class="card-text">Chicago Drill began in the early 2010s on the South Side of Chicago. It quickly became popular for its honest depiction of street life and its unique sound.</p>
+						<p>The genre was shaped by young artists who used music to share their experiences and struggles.</p>
+					</div>
+				</div>
+			</section>
 
-		<section class="info-section" id="impact-section">
-			<h2 id="impact-heading">Cultural Impact</h2>
-			<ul>
-				<li>Drill music brought attention to Chicago's youth and their stories.</li>
-				<li>It influenced fashion, slang, and attitudes in hip-hop culture.</li>
-				<li>Many mainstream rappers have adopted Drill elements in their music.</li>
-			</ul>
-			<ol>
-				<li>Drill is now popular in cities around the world.</li>
-				<li>It continues to evolve and inspire new artists.</li>
-			</ol>
-			
-			<img src="images/nightshot.jpg" alt="Nighttime skyline of downtown Chicago with illuminated skyscrapers" width="300" height="200">
-		</section>
+			<section class="info-section col-md-4" id="impact-section">
+				<div class="card h-100">
+					<div class="card-body d-flex flex-column">
+						<h2 id="impact-heading" class="card-title h6">Cultural Impact</h2>
+						<ul class="mb-3">
+							<li>Drill music brought attention to Chicago's youth and their stories.</li>
+							<li>It influenced fashion, slang, and attitudes in hip-hop culture.</li>
+							<li>Many mainstream rappers have adopted Drill elements in their music.</li>
+						</ul>
+						<ol class="mb-3">
+							<li>Drill is now popular in cities around the world.</li>
+							<li>It continues to evolve and inspire new artists.</li>
+						</ol>
+						<img src="images/nightshot.jpg" alt="Nighttime skyline of downtown Chicago with illuminated skyscrapers" class="img-fluid mt-auto" width="300" height="200">
+					</div>
+				</div>
+			</section>
+		</div>
 	</main>
 
 	<footer class="main-footer" id="footer-link" role="contentinfo">
