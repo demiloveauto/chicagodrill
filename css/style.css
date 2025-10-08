@@ -88,7 +88,6 @@ header a, footer a { color: white; }
   p, ul, ol { font-size: 16px; }
 }
 
-/* Header button color fixes for visibility on dark gradient */
 .main-header .btn {
   color: white;
   background-color: transparent;
@@ -103,6 +102,17 @@ header a, footer a { color: white; }
   color: white;
   background-color: transparent;
   border-color: white;
+}
+
+.card-body h3, .card-body h4, .card-body h5 {
+  border-top: 1px solid lightgray;
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+}
+.card-body h3:first-of-type, .card-body h4:first-of-type, .card-body h5:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 
